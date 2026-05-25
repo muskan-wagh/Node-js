@@ -6,9 +6,9 @@ const server = http.createServer((req, res) => {
   res.setHeader("Content-Type", "text/html");
 
   res.write("<html>");
-  res.write("<head><title>SAMAAHI</title></head>");
-  res.write("<body><h1>HELLO! I AM SAMARTH</h1><hr />");
-  res.write("<h1>AND I AM MAAHI</h1></body>");
+  res.write("<head><title>new</title></head>");
+  res.write("<body><h1>HELLO! I AM MUSKAN</h1><hr />");
+  res.write("<h1>how are you</h1></body>");
   res.write("</html>");
 
   res.end(); // IMPORTANT
